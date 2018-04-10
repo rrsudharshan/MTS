@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {UserDataService} from 'MTS';
+import {UserDataService} from 'reusable_module';
 
 @Component({
   selector: 'app-root',

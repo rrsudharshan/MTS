@@ -1,6 +1,6 @@
 {
-  "name": "MTS",
-  "version": "0.0.0",
+  "name": "reusable_module",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

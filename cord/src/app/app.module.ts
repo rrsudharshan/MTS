@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HeaderModule} from 'MTS';
+import {HeaderModule} from 'reusable_module';
 import { AppComponent } from './app.component';
 
 @NgModule({

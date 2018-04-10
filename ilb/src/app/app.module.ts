@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HeaderModule} from 'MTS';
-
+import {LoginModule, SignupModule} from 'reusable_module';
+import {HeroService} from 'reusable_module';
+import {AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
@@ -11,9 +12,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    HeaderModule
+    LoginModule,
+    SignupModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [HeroService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

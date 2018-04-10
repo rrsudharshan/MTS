@@ -1,0 +1,11 @@
+<form action="#">
+  <h1>Signup</h1><br><br>
+  {{signupInfo}}<br><br>
+  User Name : <input type="text"  class="input" [(ngModel)]="name" required name="name"/><br><br>
+  Password : <input type="password"  class="input" [(ngModel)]="password" required name="password"/><br><br>
+  User Email :  <input type="text"  class="input" [(ngModel)]="email" required name="email"/><br><br>
+  <button class="submit" ><a  (click)="signup()">Submit</a></button>
+  <button class="submit" ><a routerLink="/login">Login</a></button>
+</form>
+
+

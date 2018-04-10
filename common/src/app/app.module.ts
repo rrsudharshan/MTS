@@ -1,14 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { HeaderModule } from './modules/header/header.module';
+import {LoginModule} from './modules/login/login.module';
+import {SignupModule} from './modules/signup/signup.module';
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
     BrowserModule,
-    HeaderModule // import it into our @NgModule block
+    LoginModule ,
+    SignupModule// import it into our @NgModule block
   ],
   providers: [],
   bootstrap: [AppComponent]
