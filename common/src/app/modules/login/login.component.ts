@@ -37,8 +37,7 @@ export class LoginComponent implements OnInit {
      }
 
   }
-  xyz() {
-    alert('dfdfd');
+  signup() {
     this.router.navigateByUrl('/register');
   }
 
