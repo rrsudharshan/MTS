@@ -1,5 +1,5 @@
 import { Component , ViewChild} from '@angular/core';
-import {SignupComponent} from 'reusable_module';
+// import {SignupComponent} from 'reusable_module';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor() {
 
-    console.log(SignupComponent);
+    // console.log(SignupComponent);
 
   }
 

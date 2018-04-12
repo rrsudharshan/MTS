@@ -1,10 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {LoginModule, SignupModule} from 'reusable_module';
+// import {LoginModule, SignupModule} from 'reusable_module';
 import {HeroService} from 'reusable_module';
 import {AppRoutingModule} from './app-routing.module';
-import { AppComponent } from './app.component';
-
+import {AppComponent} from './app.component';
 
 @NgModule({
   declarations: [
@@ -12,8 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    LoginModule,
-    SignupModule,
+    // LoginModule,
+    // SignupModule,
     AppRoutingModule
   ],
   providers: [HeroService],
