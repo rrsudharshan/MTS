@@ -2,3 +2,7 @@
   background: olivedrab !important;
 
 }
+/deep/ .bg{
+  background: darkgoldenrod !important;
+
+}

@@ -1,9 +1,10 @@
 <form action="#" name="signup">
+  <app-header></app-header>
   <div id="node" class="signup"><h1>Signup</h1>
-    <div id="un">User Name : <input type="text"  class="input" [(ngModel)]="name" required name="name"/><br><br></div>
-    <div id="pwd">Password : <input type="password"  class="input" [(ngModel)]="password" required name="password"/><br><br></div>
-    <div id="em" *ngIf="domainUrl === 'http://localhost:4300/'">User Email :<input  type="text"  class="input"  [(ngModel)]="email" required name="email"/><br><br></div>
-    <div id="mb" *ngIf="domainUrl === 'http://localhost:4400/'">Mobile :<input  type="number"  class="input"    [(ngModel)]="mobile" required name="mobile"/><br><br></div>
+    <div id="un">User Name : <input type="text"  class="input" [(ngModel)]="user.name" required name="name"/><br><br></div>
+    <div id="pwd">Password : <input type="password"  class="input" [(ngModel)]="user.password" required name="password"/><br><br></div>
+    <div id="em" *ngIf="domainUrl === 'http://localhost:4300/'">User Email :<input  type="text"  class="input"  [(ngModel)]="user.email" required name="email"/><br><br></div>
+    <div id="mb" *ngIf="domainUrl === 'http://localhost:4400/'">Mobile :<input  type="number"  class="input"    [(ngModel)]="user.mobile" required name="mobile"/><br><br></div>
     <button class="submit" ><a  (click)="signup()">Submit</a></button>
   </div>
 </form>
