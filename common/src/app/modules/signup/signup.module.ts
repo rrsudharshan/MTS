@@ -5,6 +5,7 @@ import { FormsModule }           from '@angular/forms';
 import {SignUpRoutingModule} from './signup.route.module';
 import {HeaderModule} from '../header/header.module';
 
+
 @NgModule({
   imports: [
     SignUpRoutingModule,
